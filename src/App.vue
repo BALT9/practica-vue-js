@@ -1,8 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Inicio from "./views/Inicio.vue";
+import Block from "./views/Block.vue";
+import Producto from "./views/Producto.vue";
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
-</template>
+  <!-- <Inicio /> -->
+  <!-- <Block /> -->
+  <Producto />
 
+</template>
